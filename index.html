@@ -3,15 +3,51 @@
     <title>
       CMPICA STUDY
       <link rel="icon" href="favicon.ico" type="image/x-icon">/!- Favicon -/
-    </title>   
+    </title>
+    <style>
+        header{
+            position: sticky;
+     top: 0%;
+     background-color: white;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 16px;       
+        }
+        nav {
+  display: flex; /* Use Flexbox for layout */
+  justify-content: space-around; /* Distribute items evenly */
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 1rem; 
+}
+
+        nav a {
+        text-decoration: none; /* Remove underlines from links */
+        color: #333; /* Dark gray text color */
+        font-weight: bold;
+        padding: 0.5rem 1rem; /* Add padding for visual comfort */
+        border-radius: 5px; /* Rounded corners */
+        transition: background-color 0.3s ease; /* Smooth background transition */
+        }
+
+        nav a:hover {
+        background-color: #ddd; /* Light gray hover effect */
+        }
+        body{
+    background-color: lightblue; 
+    text-align: center;
+        }
+    </style>   
   </head>
-  <body style="background-color: light-blue; text-align: center; width: 100% " >
-    <header styl="height: 40px ">
-    <marque>This website is made for sharing information and study material only</marque>
+  <body >
+    <header>
+    This website is made for sharing information and study material only
     </header>
-    <nav>
-      <button ahref="#">HOME</button>
-      
+    <div>
+      <nav>
+        <a href="#">Home</a>&nbsp;&nbsp;&nbsp;
+        <a href="#">Notes</a>&nbsp;&nbsp;&nbsp;
+        <a href="#">Podcast</a>&nbsp;&nbsp;&nbsp;
+        <a href="#">PPT</a>&nbsp;&nbsp;&nbsp;
     </nav>
+    
   </body>
 </html>
